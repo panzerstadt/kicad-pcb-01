@@ -1,4 +1,148 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+5V #PWR?
+U 1 1 5ECEE7D2
+P 2650 1200
+F 0 "#PWR?" H 2650 1050 50  0001 C CNN
+F 1 "+5V" H 2665 1373 50  0000 C CNN
+F 2 "" H 2650 1200 50  0001 C CNN
+F 3 "" H 2650 1200 50  0001 C CNN
+	1    2650 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1350 2750 1350
+Connection ~ 2750 1350
+Wire Wire Line
+	2750 1350 2650 1350
+Wire Wire Line
+	2650 1350 2650 1200
+Connection ~ 2650 1350
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U?
+U 1 1 5ECE8872
+P 2750 3150
+F 0 "U?" H 2750 1261 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 2750 1170 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2750 3150 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2750 3150 50  0001 C CNN
+	1    2750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ECF0795
+P 2150 5150
+F 0 "#PWR?" H 2150 4900 50  0001 C CNN
+F 1 "GND" H 2155 4977 50  0000 C CNN
+F 2 "" H 2150 5150 50  0001 C CNN
+F 3 "" H 2150 5150 50  0001 C CNN
+	1    2150 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 5150 2150 4950
+Wire Wire Line
+	2150 4950 2650 4950
+Connection ~ 2650 4950
+Wire Wire Line
+	2650 4950 2750 4950
+$Comp
+L Device:R_Small R?
+U 1 1 5ECF22EB
+P 3900 3750
+F 0 "R?" V 3704 3750 50  0000 C CNN
+F 1 "10k" V 3795 3750 50  0000 C CNN
+F 2 "" H 3900 3750 50  0001 C CNN
+F 3 "~" H 3900 3750 50  0001 C CNN
+	1    3900 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ECF7181
+P 4450 3750
+F 0 "#PWR?" H 4450 3500 50  0001 C CNN
+F 1 "GND" H 4455 3577 50  0000 C CNN
+F 2 "" H 4450 3750 50  0001 C CNN
+F 3 "" H 4450 3750 50  0001 C CNN
+	1    4450 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3750 3800 3750
+Wire Wire Line
+	4000 3750 4450 3750
+$Comp
+L Device:R_Small R?
+U 1 1 5ECFCAF8
+P 1600 2650
+F 0 "R?" V 1404 2650 50  0000 C CNN
+F 1 "22" V 1495 2650 50  0000 C CNN
+F 2 "" H 1600 2650 50  0001 C CNN
+F 3 "~" H 1600 2650 50  0001 C CNN
+	1    1600 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5ECFD791
+P 1300 2750
+F 0 "R?" V 1104 2750 50  0000 C CNN
+F 1 "22" V 1195 2750 50  0000 C CNN
+F 2 "" H 1300 2750 50  0001 C CNN
+F 3 "~" H 1300 2750 50  0001 C CNN
+	1    1300 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 2650 1700 2650
+Wire Wire Line
+	1500 2650 900  2650
+Wire Wire Line
+	2150 2750 1400 2750
+Wire Wire Line
+	1200 2750 900  2750
+$Comp
+L Device:C_Small C?
+U 1 1 5ECFF539
+P 1700 3200
+F 0 "C?" H 1792 3246 50  0000 L CNN
+F 1 "1uF" H 1792 3155 50  0000 L CNN
+F 2 "" H 1700 3200 50  0001 C CNN
+F 3 "~" H 1700 3200 50  0001 C CNN
+	1    1700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5ED013BA
+P 1700 3550
+F 0 "#PWR?" H 1700 3300 50  0001 C CNN
+F 1 "GND" H 1705 3377 50  0000 C CNN
+F 2 "" H 1700 3550 50  0001 C CNN
+F 3 "" H 1700 3550 50  0001 C CNN
+	1    1700 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 2950 1700 2950
+Wire Wire Line
+	1700 2950 1700 3100
+Wire Wire Line
+	1700 3300 1700 3550
 $EndSCHEMATC
