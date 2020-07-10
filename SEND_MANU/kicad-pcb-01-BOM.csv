@@ -1,0 +1,13 @@
+Comment,Designator,Footprint,LCSC
+"0.1uF","C1,C2,C3","Capacitor_SMD:C_0805_2012Metric","C1711"
+"22pF","C4,C5","Capacitor_SMD:C_0805_2012Metric","C465168"
+"10uF","C6","Capacitor_SMD:C_0805_2012Metric","C307520"
+"1uF","C7","Capacitor_SMD:C_0805_2012Metric","C116352"
+"SOD-123","D1,D2,D3,D4","Diode_SMD:D_SOD-123","C77978"
+"500mA","F1","Fuse:Fuse_1206_3216Metric","C151162"
+"22","R1,R2","Resistor_SMD:R_0805_2012Metric","C413152"
+"10k","R3,R4","Resistor_SMD:R_0805_2012Metric","C191101"
+"SW_Push","SW1","random-keyboard-parts:SKQG-1155865","C221929"
+"ATmega32U4-AU","U1","Package_QFP:TQFP-44_10x10mm_P0.8mm","C44854"
+"Molex-0548190589","USB1","random-keyboard-parts:Molex-0548190589","C105424"
+"16MHz","Y1","Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm","C254367"
